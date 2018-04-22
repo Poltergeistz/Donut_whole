@@ -66,6 +66,9 @@ hr {
 
 header nav {
    background-color:#f2f3ee;
+   height:200px;
+   position:relative;
+   margin-top:-1em;
 }
 
 header nav ul {
@@ -104,7 +107,7 @@ header nav ul li#logo a {
 }
 
 header nav ul li#logo a:hover {
-
+   background-image: url(../images/logo-hover.png)
 }
 
 
@@ -119,7 +122,13 @@ header nav ul li#logo a:hover {
 }
 
 #hero .large-ribbon {
-
+   text-align:initial;
+   position:relative;
+   display:block;
+   bottom:30em;
+   left:60em;
+   /text-indent:-99999em;
+   background-image:url(../images/fresh-whole-ingredients.png) no-repeat;
 }
 
 
