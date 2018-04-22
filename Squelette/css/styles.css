@@ -1,0 +1,218 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.container {
+
+}
+
+
+/* Typography */
+
+h1, h2 {
+   
+}
+
+h1 {
+
+}
+/* Application de la color sur "Whole" dans le H1 */
+h1 em {
+   
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p.lead {
+
+}
+
+p {
+
+}
+
+a:link, a:visited {
+
+}
+
+a:hover {
+
+}
+
+hr {
+
+}
+
+
+/* Header */
+
+header nav {
+   background-color:#f2f3ee;
+   height:200px;
+   position:relative;
+   margin-top:-1em;
+}
+
+header nav ul {
+   list-style-type: none;
+   height:200px;
+   width:100%;
+}
+
+header nav ul li {
+   display:inline-block;
+   padding:30px;
+   position:relative;
+   top:50px;
+   left:16%;
+   font-weight:bold;
+}
+
+header nav ul li a {
+   text-decoration:none;
+   color:#d17f38;
+}
+
+header nav ul li a:hover {
+
+}
+
+header nav ul li#logo a {
+   background:url(../images/logo.png) no-repeat;
+   display:block;
+   height:200px;
+   text-indent:-999999em;
+   width:260px;
+   position:relative;
+   top:-50px;
+   padding-right:0px;
+}
+
+header nav ul li#logo a:hover {
+   background-image: url(../images/logo-hover.png)
+}
+
+
+/* Hero */
+
+#hero {
+   background-color:#e8c04f;
+}
+
+#hero .container {
+   text-align:center;
+}
+
+#hero .large-ribbon {
+   text-align:initial;
+   position:relative;
+   display:block;
+   bottom:30em;
+   left:60em;
+   /text-indent:-99999em;
+   background-image:url(../images/fresh-whole-ingredients.png) no-repeat;
+}
+
+
+/* The Whole Story */
+
+#story-excerpt {
+
+}
+
+#best-donut {
+
+
+
+/* News & Events */
+
+#articles {
+
+}
+
+#feature-image {
+
+}
+
+#news-events article {
+
+}
+
+#news-events article.news {
+
+}
+
+#news-events article.event {
+
+}
+
+#news-events header time {
+
+}
+
+#news-events section.excerpt {
+
+}
+
+#news-events footer {
+
+}
+
+
+/* Footer */
+
+footer.main {
+
+}
+
+footer.main a:hover {
+
+}
+
+#uncopyright, #credits {
+
+}
+
+#uncopyright {
+
+}
+
+#credits {
+
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
