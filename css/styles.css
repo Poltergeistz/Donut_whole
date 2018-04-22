@@ -65,7 +65,7 @@ hr {
 /* Header */
 
 header nav {
-   background-color:#f2f3ee;
+   background-image:url(../images/bg-tile.gif);
    height:200px;
    position:relative;
    margin-top:-1em;
@@ -107,28 +107,34 @@ header nav ul li#logo a {
 }
 
 header nav ul li#logo a:hover {
-   background-image: url(../images/logo-hover.png)
+   background-image: url(../images/logo-hover.png);
 }
 
 
 /* Hero */
 
 #hero {
-   background-color:#e8c04f;
+   background-image:url(../images/bg-tile-yellow.gif);
+   position:relative;
 }
 
 #hero .container {
    text-align:center;
+   position:relative;
+   height:500px;
+   padding-top:2em;
 }
 
 #hero .large-ribbon {
+   background-image:url(../images/fresh-whole-ingredients.png);
+   background-repeat:no-repeat;
    text-align:initial;
    position:relative;
    display:block;
-   bottom:30em;
-   left:60em;
-   /text-indent:-99999em;
-   background-image:url(../images/fresh-whole-ingredients.png) no-repeat;
+   text-indent:-99999em;
+   top:-32em;
+   left:64em;
+   height:12em;
 }
 
 
