@@ -1,0 +1,269 @@
+/* ===============================
+   Colour Palette:
+   ---------------
+   Light Cream:	#f2f3ee
+   Orange:			#d17f38
+   Yellow:			#e8c04f
+   Brown:			#4b2707
+   =============================== */
+
+/* General */
+
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.container {
+    background-image: url(".../images/bg-tile.gif");
+    background-position: repeat;
+    text-align: justify;
+}
+
+
+/* Typography */
+
+
+h1, h2 {
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: #d17f38;
+
+}
+
+h1 em {
+    color: #4b2707;
+
+}
+
+h2 {
+    color: #d17f38;
+
+}
+
+h3 {
+    color: #4b2707;
+    
+
+}
+
+p.lead {
+    text-align: center;
+    color: #4b2707;
+
+}
+
+p {
+    text-align: justify;
+    color: #4b2707;
+}
+
+a:link, a:visited {
+    color: #d17f38;
+
+}
+
+a:hover {
+
+}
+
+hr {
+
+}
+
+
+/* Header - partie faite par Valentin */
+
+
+header nav {
+    background-color:#f2f3ee;
+ }
+ 
+ header nav ul {
+    list-style-type: none;
+    height:200px;
+    width:100%;
+ }
+ 
+ header nav ul li {
+    display:inline-block;
+    padding:30px;
+    position:relative;
+    top:50px;
+    left:16%;
+    font-weight:bold;
+ }
+ 
+ header nav ul li a {
+    text-decoration:none;
+    color:#d17f38;
+ }
+ 
+ header nav ul li a:hover {
+ 
+ }
+ 
+ header nav ul li#logo a {
+    background:url(../images/logo.png) no-repeat;
+    display:block;
+    height:200px;
+    text-indent:-999999em;
+    width:260px;
+    position:relative;
+    top:-50px;
+    padding-right:0px;
+ }
+ 
+ header nav ul li#logo a:hover {
+ 
+ }
+ 
+ 
+ /* Hero */
+ 
+ #hero {
+    background:
+    url("../images/bg-tile-yellow.gif");
+    background-repeat: repeat-y ;
+ }
+ 
+ #hero .container {
+    text-align:center;
+ }
+ 
+ #hero .large-ribbon {
+
+ 
+ }
+
+
+/* The Whole Story */
+
+#story-excerpt {
+    padding: 50px;
+    text-align: justify;
+
+}
+
+#best-donut {
+    padding: 50px;
+    background-image: url("../images/award.png");
+    background-color: transparent;
+    text-align: justify;
+
+    background-image: url("../images/divider.png");
+    background-color: transparent;
+    background-position: center;
+}
+
+/* News & Events */
+
+#articles {
+    width: 528px;
+    text-align: left;
+    padding: 50px;
+
+}
+
+#feature-image {
+    position: absolute;
+    bottom: -1020px;
+    right: 50px;
+    height: 360px;
+    width: 528px;
+
+}
+
+#news-events article {
+    color: #d17f38
+
+}
+
+#news-events article.news {
+    background-image: url("../images/icon-news.png");
+    background-color: transparent;
+    text-align: justify;
+
+}
+
+#news-events article.event {
+    background-image: url("../images/icon-calendar.png");
+    background-color: transparent;
+
+}
+
+#news-events header time {
+    color: #d17f38;
+
+}
+
+#news-events section.excerpt {
+color: #4b2707;
+}
+
+#news-events footer {
+    color: #4b2707;
+    background-image: url("../images/divider.png");
+    background-color: transparent;
+    background-position: center;
+
+}
+
+
+/* Footer */
+
+footer.main {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 1rem;
+    background-image: url("../images/bg-tile-brown.gif");
+    background-repeat: space;
+    width: 75px;
+    height: 75px;
+    z-index: 300;
+    position: relative;
+    text-align: justify;
+
+}
+
+footer.main a:hover {
+    color: #d17f38;
+    
+
+}
+
+#uncopyright, #credits {
+color: #f2f3ee;
+}
+
+#uncopyright {
+text-align: left;
+}
+
+#credits {
+text-align: right;
+}
+
+
+/* Force Elements to Self Clear its Children: http://css-tricks.com/snippets/css/clear-fix/ */
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	}
+* html .group             { zoom: 1; } /* IE6 */
+*:first-child+html .group { zoom: 1; } /* IE7 */
+
+
+
+
+
