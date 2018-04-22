@@ -16,10 +16,14 @@ body {
 
 .container {
 
+    background-image: url(".../images/bg-tile.gif");
+    background-position: repeat;
+    text-align: justify;
 }
 
 
 /* Typography */
+
 
 h1, h2 {
    
@@ -35,21 +39,55 @@ h1 em {
 
 h2 {
 
+
+h1, h2 {
+    
+
+}
+
+h1 {
+    text-align: center;
+    color: #d17f38;
+    background-image: url("../images/header-divider.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+h1 em {
+    color: #4b2707;
+
+}
+
+h2 {
+    color: #d17f38;
+
 }
 
 h3 {
+    color: #4b2707;
+    
+
 
 }
 
 p.lead {
-
+    text-align: center;
+    color: #4b2707;
 }
 
 p {
 
+
 }
 
 a:link, a:visited {
+    text-align: justify;
+    color: #4b2707;
+}
+
+a:link, a:visited {
+    color: #d17f38;
 
 }
 
@@ -141,37 +179,56 @@ header nav ul li#logo a:hover {
 /* The Whole Story */
 
 #story-excerpt {
+    padding: 50px;
+    text-align: justify;
 
 }
 
 #best-donut {
-
-
+    padding: 50px;
+    text-align: justify;
+    background-image: url("../images/award.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
 
 /* News & Events */
 
 #articles {
-
+    width: 528px;
+    text-align: left;
+    padding: 50px;
 }
 
 #feature-image {
-
+    position: absolute;
+    bottom: -1020px;
+    right: 50px;
+    height: 360px;
+    width: 528px;
 }
 
 #news-events article {
-
+    color: #d17f38
 }
 
 #news-events article.news {
-
+    background-image: url("../images/icon-news.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: justify;
 }
 
 #news-events article.event {
-
+    background-image: url("../images/icon-calendar.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    text-align: justify;
 }
 
 #news-events header time {
-
+    color: #d17f38;
 }
 
 #news-events section.excerpt {
@@ -179,7 +236,11 @@ header nav ul li#logo a:hover {
 }
 
 #news-events footer {
+color: #4b2707;
+}
 
+#news-events footer {
+    color: #4b2707;
 }
 
 
@@ -187,10 +248,32 @@ header nav ul li#logo a:hover {
 
 footer.main {
 
+/* Footer 
+
+"divider"
+background-image: url("../images/divider.png");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-position: center;
+    */
+
+footer.main {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    padding: 1rem;
+    background-image: url("../images/bg-tile-brown.gif");
+    background-repeat: repeat-y;
+    width: 75px;
+    height: 75px;
+    z-index: 300;
+    text-align: justify;
+
 }
 
 footer.main a:hover {
-
+   color: #d17f38;
 }
 
 #uncopyright, #credits {
@@ -202,7 +285,15 @@ footer.main a:hover {
 }
 
 #credits {
+color: #f2f3ee;
+}
 
+#uncopyright {
+text-align: left;
+}
+
+#credits {
+text-align: right;
 }
 
 
