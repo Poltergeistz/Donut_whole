@@ -65,7 +65,7 @@ hr {
 /* Header */
 
 header nav {
-   background-color:#f2f3ee;
+   background-image:url(../images/bg-tile.gif);
    height:200px;
    position:relative;
    margin-top:-1em;
@@ -114,7 +114,9 @@ header nav ul li#logo a:hover {
 /* Hero */
 
 #hero {
-   background-color:#e8c04f;
+   background-image:url(../images/bg-tile-yellow.gif);
+
+   position:relative;
 }
 
 #hero .container {
@@ -122,13 +124,14 @@ header nav ul li#logo a:hover {
 }
 
 #hero .large-ribbon {
+   background-image:url(../images/fresh-whole-ingredients.png) ;
    text-align:initial;
    position:relative;
    display:block;
-   bottom:30em;
-   left:60em;
-   /text-indent:-99999em;
-   background-image:url(../images/fresh-whole-ingredients.png) no-repeat;
+   text-indent:-99999em;
+   background-size: auto;
+   top:-150px;
+   left:150px;
 }
 
 
